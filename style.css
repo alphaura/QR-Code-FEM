@@ -24,6 +24,8 @@ img {
 section {
     width: 20rem;
     margin: 12rem auto;
+    transition: all 1s ease-in-out;
+
 }
 
 .container {
@@ -36,6 +38,10 @@ section {
     min-height: 30rem;
     border-radius: 4%;
     box-shadow: 1px 1px 30px .2px rgb(145, 145, 145);
+}
+
+section:hover {
+    transform: scale(1.2);
 }
 
 h1, p {
