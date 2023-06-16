@@ -10,7 +10,11 @@ body {
     background-color: hsl(212,46%,89%);
     font-family: 'Outfit', sans-serif;
     width: auto;
-    height: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -30,10 +34,6 @@ section {
 
 .container {
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     min-height: 30rem;
     border-radius: 4%;
